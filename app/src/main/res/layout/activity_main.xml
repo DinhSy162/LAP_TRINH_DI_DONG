@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F0F2F5"
+    tools:context=".MainActivity">
+
+    <!-- Thẻ chứa thông tin sinh viên -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#243342">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="32dp">
+
+            <!-- Ảnh đại diện -->
+            <ImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/ic_launcher_background"
+                app:tint="#FFFFFF" />
+
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đỗ Đình Sỹ"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp" />
+
+
+            <TextView
+                android:id="@+id/tvStudentId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MSSV: 2415053122239 | Lớp: 125DHPC01"
+                android:textSize="14sp"
+                android:textColor="#DCE6EB"
+                android:layout_marginTop="8dp" />
+
+
+            <TextView
+                android:id="@+id/tvGpaBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.8 GPA (Xuất sắc)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#34B469"
+                android:layout_marginTop="16dp" />
+
+
+            <EditText
+                android:id="@+id/edtNewGpa"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Nhập GPA mới"
+                android:inputType="numberDecimal"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#8A9BA8"
+                android:background="#1B2631"
+                android:layout_marginTop="32dp" />
+
+
+            <Button
+                android:id="@+id/btnUpdateGpa"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Cập Nhật"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="#34B469"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
