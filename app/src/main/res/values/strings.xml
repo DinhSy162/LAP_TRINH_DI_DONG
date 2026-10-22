@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DDS Android</string>
+
+    <!-- Register Activity -->
+    <string name="register_title">ĐĂNG KÝ TÀI KHOẢN</string>
+    <string name="register_subtitle">Vui lòng điền đầy đủ thông tin bên dưới</string>
+
+    <string name="label_full_name">Họ và tên</string>
+    <string name="hint_full_name">Nhập họ và tên</string>
+    <string name="error_full_name">Vui lòng nhập họ và tên</string>
+
+    <string name="label_email">Email</string>
+    <string name="hint_email">Nhập email</string>
+    <string name="error_email">Email không hợp lệ</string>
+
+    <string name="label_phone">Số điện thoại</string>
+    <string name="hint_phone">Nhập số điện thoại</string>
+    <string name="error_phone">Số điện thoại không hợp lệ</string>
+
+    <string name="label_student_id">Mã sinh viên (MSV)</string>
+    <string name="hint_student_id">Nhập mã sinh viên</string>
+    <string name="error_student_id">Vui lòng nhập mã sinh viên</string>
+
+    <string name="label_class">Lớp</string>
+    <string name="hint_class">Nhập lớp</string>
+    <string name="error_class">Vui lòng nhập lớp</string>
+
+    <string name="btn_register">ĐĂNG KÝ</string>
+
+    <!-- Detail Activity -->
+    <string name="detail_title">CHI TIẾT SINH VIÊN</string>
+    <string name="detail_subtitle">Chi tiết thông tin đăng ký của sinh viên</string>
+    <string name="detail_full_name_format">Họ tên: %1$s</string>
+    <string name="detail_email_format">Email: %1$s</string>
+    <string name="detail_phone_format">Số điện thoại: %1$s</string>
+    <string name="detail_student_id_format">MSV: %1$s</string>
+    <string name="detail_class_format">Lớp: %1$s</string>
+    <string name="btn_back">QUAY LẠI</string>
+</resources>
